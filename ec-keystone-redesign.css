@@ -1,0 +1,136 @@
+/*BASE NEWSWORKS COLOR VARIABLES*/
+/*POPE VARIABLES*/
+/*KEYSTONE CROSSROADS VARIABLES*/
+/*TYPE VARIABLES*/
+/*MEDIA QUERY MIXINS*/
+@media (min-width: 992px) {
+  .pull-right-md {
+    float: right; } }
+
+body {
+  /*END BODY.KEYSTONE-CROSSROADS*/ }
+  body.keystone-crossroads {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    /*END SUB-NAV-BAR*/ }
+    body.keystone-crossroads a:hover, body.keystone-crossroads a:active, body.keystone-crossroads a:focus, body.keystone-crossroads a:visited {
+      text-decoration: none; }
+    body.keystone-crossroads #toggle-button {
+      background-color: #9db838; }
+    body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo {
+      font-size: 2.5rem;
+      color: #9db838;
+      color: #9db838; }
+      body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover {
+        color: #acc835; }
+      body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active {
+        color: #b2d237; }
+      body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo a {
+        color: #9db838;
+        -webkit-transition: color 0.15s ease-out;
+        transition: color 0.15s ease-out; }
+        body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo a:hover {
+          color: #acc835; }
+        body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo a:active {
+          color: #b2d237; }
+      body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:visited, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus {
+        text-decoration: none; }
+    body.keystone-crossroads #sub-nav-bar {
+      padding-top: .5rem;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: .1em;
+      cursor: pointer;
+      background-color: #9db838; }
+      body.keystone-crossroads #sub-nav-bar ul {
+        text-align: center;
+        margin: 0 auto;
+        font-size: .7rem; }
+        @media (min-width: 992px) {
+          body.keystone-crossroads #sub-nav-bar ul {
+            font-size: .7rem; } }
+        body.keystone-crossroads #sub-nav-bar ul li {
+          display: inline-block;
+          text-align: center;
+          margin-right: .5rem;
+          margin-bottom: .5rem;
+          padding: .25rem; }
+          @media (min-width: 992px) {
+            body.keystone-crossroads #sub-nav-bar ul li {
+              margin-right: 1rem; } }
+          body.keystone-crossroads #sub-nav-bar ul li a {
+            color: #fff; }
+            body.keystone-crossroads #sub-nav-bar ul li a:hover {
+              text-decoration: underline; }
+            body.keystone-crossroads #sub-nav-bar ul li a:active {
+              background-color: #b2d237; }
+    body.keystone-crossroads .section-title {
+      background-color: #9db838;
+      -webkit-transition: background-color 0.5s ease-out;
+      transition: background-color 0.5s ease-out;
+      color: #fff;
+      display: inline-block;
+      padding: .25em;
+      margin-bottom: 1rem; }
+      body.keystone-crossroads .section-title:hover {
+        background-color: #acc835; }
+      body.keystone-crossroads .section-title:active {
+        -webkit-transition: none;
+                transition: none;
+        background-color: #b2d237; }
+      body.keystone-crossroads .section-title a {
+        color: #fff; }
+    body.keystone-crossroads .latest .text-box {
+      margin-bottom: 1.25rem; }
+      body.keystone-crossroads .latest .text-box h4 {
+        font-size: .7rem;
+        margin-bottom: .1em;
+        letter-spacing: .05em; }
+      body.keystone-crossroads .latest .text-box h2 {
+        font-size: 1rem;
+        line-height: 1.25em; }
+    body.keystone-crossroads .category-highlights {
+      margin-top: 1rem; }
+    body.keystone-crossroads .content-container {
+      display: block;
+      margin-top: 162px; }
+      @media (min-width: 992px) {
+        body.keystone-crossroads .content-container {
+          margin-top: 140px; } }
+      body.keystone-crossroads .content-container img {
+        margin: 0; }
+      body.keystone-crossroads .content-container .top-feature .photo-box {
+        position: relative;
+        margin-bottom: 1rem; }
+      body.keystone-crossroads .content-container .top-feature .text-box {
+        color: #fff;
+        background-color: rgba(30, 36, 36, 0.75);
+        padding: 1rem;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        -webkit-transition: background-color 0.5s ease-out;
+        transition: background-color 0.5s ease-out; }
+        body.keystone-crossroads .content-container .top-feature .text-box:hover {
+          background-color: rgba(30, 36, 36, 0.85); }
+        body.keystone-crossroads .content-container .top-feature .text-box:hover h4, body.keystone-crossroads .content-container .top-feature .text-box:hover p {
+          display: inherit; }
+        body.keystone-crossroads .content-container .top-feature .text-box h4 {
+          font-size: .8rem;
+          margin-bottom: .5rem;
+          display: none; }
+        body.keystone-crossroads .content-container .top-feature .text-box h2 {
+          margin-bottom: .5rem; }
+        body.keystone-crossroads .content-container .top-feature .text-box p {
+          display: none; }
+        body.keystone-crossroads .content-container .top-feature .text-box p:last-of-type {
+          margin: 0; }
+        body.keystone-crossroads .content-container .top-feature .text-box a {
+          color: #fff; }
+
+/*END BODY*/
+
+/*# sourceMappingURL=keystone-crossroads-new.css.map */
+
+
