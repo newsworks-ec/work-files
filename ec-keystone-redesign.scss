@@ -1,0 +1,222 @@
+@import "ec-custom-variables";
+@import "ec-custom-mixins";
+
+
+@mixin keystone-text-effects {
+	@include text-color-effects($kc-main-color, $kc-bright, $kc-vibrant);
+};
+
+@mixin keystone-color-effects {
+	@include color-effects (background-color, $kc-main-color, $kc-bright, $kc-vibrant);
+}
+
+
+body {
+
+	&.keystone-crossroads {
+
+		a {
+
+			&:hover, &:active, &:focus, &:visited{
+				text-decoration: none;
+			}
+		}
+
+		@include font-smoothing;
+
+		#toggle-button{
+			background-color: $kc-main-color;
+		}
+
+		.logo-holder {
+
+			a.icon-keystonecrossroads.kc-cat-logo {
+				font-size: 2.5rem;
+				//color: $kc-main-color;
+				color: white;
+				@include keystone-text-effects;
+
+				&:hover, &:active, &:visited, &:focus {
+					text-decoration: none;
+				}
+
+			}
+
+		}
+
+		#sub-nav-bar {
+			//@include color-effects (background-color, $kc-main-color, $kc-color-old, $kc-vibrant);
+			//background-color: $kc-main-color;
+			padding-top: .5rem;
+			color: $kc-dark-gray;
+			text-transform: uppercase;
+			font-weight: bold;
+			letter-spacing: .1em;
+			cursor: pointer;
+			background-color: white;
+			//@include keystone-color-effects;
+			//background-color: $kc-main-color;
+
+
+			ul {
+				text-align: center;
+				margin: 0 auto;
+				font-size: .7rem;
+
+				@include desktop {
+					//width: 80%;
+					font-size: .7rem;
+				}
+
+				li {
+					//@include keystone-color-effects;
+					//float: left;
+					display: inline-block;
+					text-align: center;
+					margin-right: 2.5rem;
+					margin-bottom: .5rem;
+					padding: .25rem;
+					//width: 8rem;
+
+					@include desktop {
+						text-align: left;
+						margin-right: 2.825rem;
+
+						&:last-of-type {
+
+							margin-right: 0;
+						}
+
+						&:hover {
+							border-bottom: 2px solid $kc-vibrant;
+						}
+					}
+
+					a {
+						color: $kc-dark-gray;;
+						&:hover {
+							//border-bottom: 2px solid $kc-vibrant;
+						}
+
+						&:active {
+							background-color: $kc-vibrant;
+						}
+
+
+					}
+				}
+			}
+
+		}/*END SUB-NAV-BAR*/
+
+		.section-title {
+			@include keystone-color-effects;
+
+			color: #fff;
+			display: inline-block;
+			padding: .25em;
+			margin-bottom: 1rem;
+			a {
+				color: #fff;
+			}
+		}
+
+		.latest {
+			.text-box {
+				margin-bottom: 1.25rem;
+
+				h4 {
+					font-size: .7rem;
+					margin-bottom: .1em;
+					letter-spacing: .05em;
+				}
+
+				h2 {
+					font-size: 1rem;
+					line-height: 1.25em;
+				}
+
+			}
+		}
+
+		.category-highlights {
+			margin-top: 1rem;
+		}
+
+		.content-container {
+			display: block;
+			margin-top: 162px;
+
+			@include desktop {
+				margin-top: 140px;
+			}
+
+			img {
+				margin: 0;
+			}
+
+			
+
+			.top-feature {
+
+				.photo-box {
+					position: relative;
+					margin-bottom: 1rem;
+				}
+
+				.text-box {
+					color: #fff;
+					//background-color: $kc-dark-gray;
+					//background-color: $kc-white-transp;
+					background-color: $kc-dark-transp;
+					padding: 1rem;
+					position: absolute;
+					width: 100%;
+					//bottom: 0;
+					top: 0;
+					@include hover-transition (background-color);
+					&:hover {
+						background-color: $kc-dark-transp-plus;
+					}
+
+					//opacity: .5;
+
+					&:hover {
+						h4, p {
+							display: inherit;
+						}
+					}
+
+					h4 {
+						font-size: .8rem;
+						margin-bottom: .5rem;
+						display: none;
+					}
+
+					h2 {
+						margin-bottom: .5rem;
+					}
+
+					p {
+						display: none;
+					}
+
+					p:last-of-type {
+						margin: 0;
+					}
+
+					a {
+						color: #fff;
+					}
+
+				}
+
+			}
+
+			
+
+		}
+
+	}/*END BODY.KEYSTONE-CROSSROADS*/
+
+}/*END BODY*/

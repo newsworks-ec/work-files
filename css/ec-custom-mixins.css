@@ -1,0 +1,4 @@
+/*MEDIA QUERY MIXINS*/
+@media (min-width: 992px) {
+  .pull-right-md {
+    float: right; } }
