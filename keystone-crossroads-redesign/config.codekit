@@ -11,41 +11,41 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/ec-custom-mixins.css": {
+	"\/keystone-crossroads-redesign\/css\/ec-custom-mixins.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/ec-custom-mixins.css",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/css\/ec-custom-mixins.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/ec-custom-variables.css": {
+	"\/keystone-crossroads-redesign\/css\/ec-custom-variables.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/ec-custom-variables.css",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/css\/ec-custom-variables.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/ec-keystone-redesign.css": {
+	"\/keystone-crossroads-redesign\/css\/ec-keystone-redesign.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/ec-keystone-redesign.css",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/css\/ec-keystone-redesign.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/ec-custom-mixins.scss": {
+	"\/keystone-crossroads-redesign\/ec-custom-mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ec-custom-mixins.scss",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-custom-mixins.scss",
 		"outputAbbreviatedPath": "\/css\/ec-custom-mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -54,14 +54,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/ec-custom-variables.scss": {
+	"\/keystone-crossroads-redesign\/ec-custom-variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/ec-custom-variables.scss",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-custom-variables.scss",
 		"outputAbbreviatedPath": "\/css\/ec-custom-variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -70,32 +70,32 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/ec-keystone-redesign-OLD.css": {
+	"\/keystone-crossroads-redesign\/ec-keystone-redesign-OLD.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ec-keystone-redesign-OLD.css",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-keystone-redesign-OLD.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/ec-keystone-redesign.html": {
+	"\/keystone-crossroads-redesign\/ec-keystone-redesign.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/ec-keystone-redesign.html",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-keystone-redesign.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/ec-keystone-redesign.scss": {
+	"\/keystone-crossroads-redesign\/ec-keystone-redesign.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/ec-keystone-redesign.scss",
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-keystone-redesign.scss",
 		"outputAbbreviatedPath": "\/css\/ec-keystone-redesign.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

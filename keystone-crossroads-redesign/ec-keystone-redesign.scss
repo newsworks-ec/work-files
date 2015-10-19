@@ -33,21 +33,49 @@ body {
 			a.icon-keystonecrossroads.kc-cat-logo {
 				font-size: 2.5rem;
 				//color: $kc-main-color;
-				color: white;
-				@include keystone-text-effects;
+				color: #fff;
+				//@include keystone-text-effects;
 
-				&:hover, &:active, &:visited, &:focus {
+				&:hover, &:active, &:focus {
 					text-decoration: none;
+					@include keystone-text-effects;
 				}
 
 			}
 
 		}
 
+		.kc-stations-desktop {
+
+			padding-top: 1.2rem;
+
+				a {
+					font-size: 1.05rem;
+
+					&:hover, &:active, &:focus {
+						text-decoration: none;
+						@include keystone-text-effects;
+					}
+				}
+
+			@include desktop {
+				text-align: right;
+				padding-top: 1rem;
+
+				a {
+					font-size: 1.35rem;
+				}
+
+				
+			}	
+
+		}
+
+
 		#sub-nav-bar {
 			//@include color-effects (background-color, $kc-main-color, $kc-color-old, $kc-vibrant);
 			//background-color: $kc-main-color;
-			padding-top: .5rem;
+			padding-top: 1.2rem;
 			color: $kc-dark-gray;
 			text-transform: uppercase;
 			font-weight: bold;
@@ -79,7 +107,6 @@ body {
 					//width: 8rem;
 
 					@include desktop {
-						text-align: left;
 						margin-right: 2.825rem;
 
 						&:last-of-type {
@@ -122,8 +149,23 @@ body {
 		}
 
 		.latest {
+			
+			ul {
+				overflow-x: auto;
+				white-space: nowrap;
+
+				li {
+					padding: 1rem;
+					float: none;
+					display:inline-block;
+
+				}
+			}
+
 			.text-box {
 				margin-bottom: 1.25rem;
+				display:inline-block;
+
 
 				h4 {
 					font-size: .7rem;
@@ -157,7 +199,7 @@ body {
 
 			
 
-			.top-feature {
+			.top-feature, {
 
 				.photo-box {
 					position: relative;
@@ -209,13 +251,82 @@ body {
 						color: #fff;
 					}
 
-				}
+				}   //closes text-box
 
-			}
+			}  // closes top-feature
 
 			
 
+
+		}  // closes content-container
+
+
+		.secondary-feature {
+
+				margin-top: 2rem;
+
+				.photo-box {
+					position: relative;
+					margin-bottom: 1.8rem;
+				}
+
+				.text-box {
+					color: #fff;
+					//background-color: $kc-dark-gray;
+					//background-color: $kc-white-transp;
+					background-color: $kc-dark-transp;
+					padding: 1rem;
+					position: absolute;
+					width: 100%;
+					//bottom: 0;
+					top: 0;
+					@include hover-transition (background-color);
+					&:hover {
+						background-color: $kc-dark-transp-plus;
+					}
+
+					//opacity: .5;
+
+					&:hover {
+						border: 1px solid $kc-dark;
+					}
+
+					
+
+					h2 {
+						margin-bottom: .5rem;
+						font-size: 1rem;
+					}
+
+					
+
+					a {
+						color: #fff;
+					}
+
+				}
 		}
+
+		.more-featured {
+			text-align: right;
+
+		}	
+
+
+		.category-highlights {
+			margin-top: 1.5rem;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			background-color: $kc-main-color;
+
+			h4 {
+				color: #fff;			
+			}
+
+			img {
+				border-radius: 50%;
+			}
+		}	
 
 	}/*END BODY.KEYSTONE-CROSSROADS*/
 
