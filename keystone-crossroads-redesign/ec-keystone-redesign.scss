@@ -328,6 +328,111 @@ body {
 			}
 		}	
 
+
+		.newsletter-signup {
+			margin-top: 1.5rem;
+			margin-bottom: 1.5rem;
+			text-align: center;
+
+			h2 {
+				margin-bottom: .5rem;
+			}
+
+			input[type=text] {
+				width: 100%;
+				margin: .5rem 0;
+				padding-top: .5rem;
+				padding-bottom: .5rem;
+			}
+
+			button {
+				display: block;
+				margin: .5rem auto;
+				@include keystone-color-effects;
+				width: 60%;
+				padding-top: .5rem;
+				padding-bottom: .5rem;
+				color: #fff;
+				border-radius: .25rem;
+			}
+		}
+
+		.footer-info {
+			margin-top: 1.5rem;
+			margin-bottom: 1.5rem;
+			text-align: center;
+
+			h2 {
+				margin-bottom: 1rem;
+			}
+
+			.footer-logo {
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+
+				.kc-logo-footer {
+					color: #000;
+					&:hover {
+						@include keystone-text-effects;
+					}
+				}
+			}
+
+			.footer-text {
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+
+				p {
+					margin-bottom: 1.5rem;
+
+					&:last-of-type {
+						margin-bottom: none;
+						font-weight: bold;
+					}
+				}
+			}
+
+			.kc-team {
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+			}
+
+			.kc-partner-stations {
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+
+				a {
+					color: #000;
+					margin-right: 2rem;
+
+					&:last-of-type {
+						margin-right: none;
+					}
+
+					&:hover {
+						@include keystone-text-effects;
+					}
+				}
+			}
+
+			.kc-supported-by {
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+
+				a {
+					color: #000;
+
+					&:hover {
+						@include keystone-text-effects;
+					}
+				}
+			}
+
+			
+		}
+
+
+
 	}/*END BODY.KEYSTONE-CROSSROADS*/
 
 }/*END BODY*/
