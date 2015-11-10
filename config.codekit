@@ -20,6 +20,66 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/keystone-crossroads-redesign\/Arctext\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/keystone-crossroads-redesign\/Arctext\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/keystone-crossroads-redesign\/Arctext\/images\/noise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65304,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/images\/noise.png",
+		"outputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/images\/noise.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/keystone-crossroads-redesign\/Arctext\/images\/texture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25028,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/images\/texture.png",
+		"outputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/images\/texture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/keystone-crossroads-redesign\/Arctext\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/keystone-crossroads-redesign\/Arctext\/js\/jquery.arctext.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/js\/jquery.arctext.js",
+		"outputAbbreviatedPath": "\/keystone-crossroads-redesign\/Arctext\/js\/min\/jquery.arctext-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/keystone-crossroads-redesign\/css\/ec-custom-mixins.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -112,6 +172,37 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/keystone-crossroads-redesign\/js\/kc-ec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/js\/kc-ec.js",
+		"outputAbbreviatedPath": "\/keystone-crossroads-redesign\/js\/min\/kc-ec-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/keystone-crossroads-redesign\/js\/min\/kc-ec-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/js\/min\/kc-ec-min.js",
+		"outputAbbreviatedPath": "\/keystone-crossroads-redesign\/js\/min\/min\/kc-ec-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/keystone-crossroads-redesign\/textpath-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/textpath-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
