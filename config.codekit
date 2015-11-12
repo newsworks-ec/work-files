@@ -173,6 +173,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/keystone-crossroads-redesign\/js\/jquery-1.11.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/js\/jquery-1.11.3.min.js",
+		"outputAbbreviatedPath": "\/keystone-crossroads-redesign\/js\/min\/jquery-1.11.3.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/keystone-crossroads-redesign\/js\/kc-ec.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -212,8 +223,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "work-files",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "work-files 11-11",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "pencil_blue"
 	},
 "projectSettings": {
