@@ -281,9 +281,13 @@ body {
       margin-top: 0;
       padding-top: 2rem;
       padding-bottom: 2rem; }
-      body.keystone-crossroads .category-highlights h4 {
+      body.keystone-crossroads .category-highlights .category-header {
         color: #fff;
-        background-color: none; }
+        background-color: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+        position: relative; }
       body.keystone-crossroads .category-highlights h2 {
         color: #fff; }
       body.keystone-crossroads .category-highlights img {
@@ -296,7 +300,16 @@ body {
           -webkit-filter: grayscale(0.7);
           filter: grayscale(0.7); }
       body.keystone-crossroads .category-highlights .category-title {
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem;
+        text-align: center;
+        -ms-transform: rotate(-51deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-51deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(-51deg);
+        top: 3rem;
+        position: relative;
+        right: 8rem; }
       body.keystone-crossroads .category-highlights .text-box {
         margin-top: 1.5rem;
         padding-left: 1.5rem;

@@ -13,9 +13,9 @@
 		<link href="http://www.newsworks.org/responsive_assets/css/responsive-base.css" rel="stylesheet" type="text/css">
 		<link href="http://www.newsworks.org/components/com_flexicontent/assets/css/fcvote.css" rel="stylesheet" type="text/css">
 		<link href="http://www.newsworks.org/components/com_flexicontent/templates/default-article-responsive/css/item.css" rel="stylesheet" type="text/css">
-		<link href="http://www.newsworks.org/index.php/component/user/login?cid=2&tmpl=component&ajax=1&template=newsworks_blank&return_url=L2luZGV4LnBocC9sb2NhbC9pdGVtLzgwODg2.css" rel="stylesheet" type="text/css">
+		<link href="http://www.newsworks.org/index.php/component/user/login?cid=2&tmpl=component&ajax=1&template=newsworks_blank&return_url=L2luZGV4LnBocC9sb2NhbC9pdGVtLzgwODg2.css" rel="stylesheet" type="text/css"> 
 
-
+		<link href="ArcText/css/style.css" rel="stylesheet" type="text/css">
 
 		<link href="css/ec-keystone-redesign.css" rel="stylesheet" type="text/css">
 
@@ -425,10 +425,17 @@
 										<div class="category-block">
 											<div class="category-title">
 												<a href="#">
-													<h4 id="example1">IN DEPTH</h4>
+													<span class="category-header" id="curved1">IN DEPTH</span>
 													<!--  <p>Pittsburgh's modernist past has lessons for today's urban renewal</p>  -->
 												</a>
 											</div>
+
+											<script>
+												$("#curved1").arctext({radius: 120});
+											</script>
+
+											
+		
 											<div class="photo-box">
 
 												<!--LINK TO ARTICLE-->
@@ -455,10 +462,16 @@
 										<div class="category-block">
 											<div class="category-title">
 												<a href="#">
-													<h4>EXPLAINERS</h4>
+													<span class="category-header" id="curved2">EXPLAINERS</span>
 													<!--  <p>Pittsburgh's modernist past has lessons for today's urban renewal</p>  -->
 												</a>
 											</div>
+
+											<script>
+												$("#curved2").arctext({radius: 140});
+											</script>
+
+
 											<div class="photo-box">
 
 												<!--LINK TO ARTICLE-->
@@ -485,10 +498,16 @@
 										<div class="category-block">
 											<div class="category-title">
 												<a href="#">
-													<h4>EXPLORE AND SHARE</h4>
+													<span class="category-header" id="curved3">EXPLORE AND SHARE</span>
 													<!--  <p>Pittsburgh's modernist past has lessons for today's urban renewal</p>  -->
 												</a>
 											</div>
+
+											<script>
+												$("#curved3").arctext({radius: 160});
+											</script>
+
+
 											<div class="photo-box">
 
 												<!--LINK TO ARTICLE-->
@@ -608,9 +627,7 @@
 
 	</body>
 
-	<script>
-		$example1.arctext({radius: 300});
-	</script>
+	
 
 
 </html>
