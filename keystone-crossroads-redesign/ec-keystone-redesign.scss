@@ -88,9 +88,105 @@ body {
 			background-color: white;
 			//@include keystone-color-effects;
 			//background-color: $kc-main-color;
+			display: none;
+			height: auto;
+			position: fixed;
+
+
+			@include tablet {
+				display: block;
+				padding-bottom: 2rem;
+
+
+				a {
+					color: #000;
+					&:hover {
+						//border-bottom: 2px solid $kc-vibrant;
+					}
+
+					&:active {
+						background-color: $kc-vibrant;
+					}
+
+
+				}
+
+				.sub-nav-left {
+
+					margin-left: 0;
+					padding-left: 0;
+					padding-right: 0;
+					text-align: left;
+
+					ul {
+						margin-left: 0;
+						padding-left: 15px;
+						text-align: center;
+						font-size: 0.7rem;
+
+						li {
+							margin-right: 0;
+							margin-left: 3.2rem;
+							vertical-align: text-bottom;
+							display: inline-block;
+
+							&:first-of-type {
+								margin-left: 0;
+							}
+						}
+
+						@include desktop-lg {
+							text-align: left;
+					
+						}
+					}
+				}  //  sub-nav-left
+
+				.sub-nav-right {
+
+					margin-right: 0;
+					padding-right: 0;
+					padding-left: 0;
+					text-align: left;
+					margin-top: 1.5rem;
 
 
 
+					ul {
+						margin-right: 0;
+						padding-right: 15px;
+						text-align: center;
+						font-size: 0.7rem;
+
+						li {
+							margin-right: 0;
+							margin-left: 3.4rem;
+							display: inline-block;
+
+							&:first-of-type {
+								margin-left: 0;
+							}
+						}
+
+						@include desktop-lg {
+							text-align: right;
+					
+						}
+
+					}
+
+					@include desktop-lg {
+						margin-top: 0;
+					}
+
+				}  // sub-nav-right
+
+			}  //  @include tablet
+
+			
+
+
+/*
 
 			ul {
 				text-align: center;
@@ -125,68 +221,11 @@ body {
 						}
 					}
 
-					a {
-						color: #000;
-						&:hover {
-							//border-bottom: 2px solid $kc-vibrant;
-						}
-
-						&:active {
-							background-color: $kc-vibrant;
-						}
-
-
-					}
+					
 				}
 			}
-
-			.sub-nav-left {
-
-				margin-left: 0;
-					padding-left: 0;
-					padding-right: 0;
-					text-align: left;
-
-
-				ul {
-					margin-left: 0;
-					padding-left: 0;
-					text-align: left;
-
-					li {
-
-						vertical-align: text-bottom;
-
-						&:first-of-type {
-							padding-left: 0;
-						}
-					}
-				}
-			}
-
-			.sub-nav-right {
-
-				margin-right: 0;
-					padding-right: 0;
-					padding-left: 0;
-					text-align: left;
-
-				ul {
-					margin-right: 0;
-					padding-right: 0;
-					text-align: right;
-
-					li {
-						margin-right: 0;
-						margin-left: 3.4rem;
-
-						&:first-of-type {
-							margin-left: 0;
-						}
-					}
-
-				}
-			}
+*/
+			
 
 		}/*END SUB-NAV-BAR*/
 
@@ -288,7 +327,7 @@ body {
 
 		.content-container {
 			display: block;
-			margin-top: 162px;
+			margin-top: 6rem;
 
 			@include desktop {
 				margin-top: 140px;
@@ -601,6 +640,8 @@ body {
 				margin-top: 1.5rem;
 				margin-bottom: 1.5rem;
 				color: #000;
+				padding-left: 5%;
+				padding-right: 5%;
 
 				p {
 					margin-bottom: 1.5rem;
@@ -616,6 +657,8 @@ body {
 				margin-top: 1.5rem;
 				margin-bottom: 1.5rem;
 				color: #000;
+				padding-left: 15%;
+				padding-right: 15%;
 			}
 
 			.kc-partner-stations {
