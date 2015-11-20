@@ -51,21 +51,7 @@ body {
       color: #fff; }
       body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus {
         text-decoration: none;
-        color: #9db838; }
-        body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover:hover, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active:hover, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus:hover {
-          color: #acc835; }
-        body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover:active, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active:active, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus:active {
-          color: #b2d237; }
-        body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover a, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active a, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus a {
-          color: #9db838;
-          -webkit-transition: color 0.15s ease-out;
-          -moz-transition: color 0.15s ease-out;
-          -o-transition: color 0.15s ease-out;
-          transition: color 0.15s ease-out; }
-          body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover a:hover, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active a:hover, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus a:hover {
-            color: #acc835; }
-          body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:hover a:active, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:active a:active, body.keystone-crossroads .logo-holder a.icon-keystonecrossroads.kc-cat-logo:focus a:active {
-            color: #b2d237; }
+        color: #b3b3b3; }
     body.keystone-crossroads #sub-nav-bar {
       padding-top: 1.2rem;
       color: #5b6d6f;
@@ -81,6 +67,8 @@ body {
         body.keystone-crossroads #sub-nav-bar {
           display: block;
           padding-bottom: 2rem; }
+          body.keystone-crossroads #sub-nav-bar .dropdown:hover .dropdown-menu {
+            display: block; }
           body.keystone-crossroads #sub-nav-bar a {
             color: #000; }
           body.keystone-crossroads #sub-nav-bar .sub-nav-left {
@@ -96,11 +84,31 @@ body {
               body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li {
                 margin-right: 0;
                 margin-left: 3.2rem;
-                display: inline-block; }
+                display: inline-block;
+                text-align: center; }
                 body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li:first-of-type {
                   margin-left: 0; }
                 body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li:hover, body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li:active {
-                  border-bottom: 4px solid #afbe58; } }
+                  border-bottom: 4px solid #afbe58; }
+                body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu {
+                  border: none;
+                  background: none;
+                  width: 100%;
+                  padding-left: 0; }
+                  body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu li {
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-top: 0.75rem;
+                    background-color: #afbe58;
+                    width: inherit;
+                    padding: 0.5rem; }
+                    body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu li:hover, body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu li:active {
+                      background-color: rgba(255, 255, 255, 0.75); }
+                    body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu li a {
+                      color: #fff;
+                      font-weight: bold; }
+                      body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu li a:hover, body.keystone-crossroads #sub-nav-bar .sub-nav-left ul li .dropdown-menu li a:active {
+                        color: #000; } }
       @media (min-width: 768px) and (min-width: 1200px) {
         body.keystone-crossroads #sub-nav-bar .sub-nav-left ul {
           text-align: left; } }
@@ -119,7 +127,8 @@ body {
               body.keystone-crossroads #sub-nav-bar .sub-nav-right ul li {
                 margin-right: 0;
                 margin-left: 3.4rem;
-                display: inline-block; }
+                display: inline-block;
+                text-align: center; }
                 body.keystone-crossroads #sub-nav-bar .sub-nav-right ul li:first-of-type {
                   margin-left: 0; }
                 body.keystone-crossroads #sub-nav-bar .sub-nav-right ul li:hover, body.keystone-crossroads #sub-nav-bar .sub-nav-right ul li:active {
@@ -130,7 +139,21 @@ body {
     @media (min-width: 768px) and (min-width: 1200px) {
       body.keystone-crossroads #sub-nav-bar .sub-nav-right {
         margin-top: 0; } }
-
+      @media (min-width: 768px) {
+          body.keystone-crossroads #sub-nav-bar .dropdown-menu {
+            border: none;
+            background: none; }
+            body.keystone-crossroads #sub-nav-bar .dropdown-menu li {
+              margin-left: 0;
+              margin-right: 0;
+              margin-top: 0.75rem;
+              background-color: #afbe58; }
+              body.keystone-crossroads #sub-nav-bar .dropdown-menu li:hover, body.keystone-crossroads #sub-nav-bar .dropdown-menu li:active {
+                background-color: rgba(255, 255, 255, 0.75); }
+              body.keystone-crossroads #sub-nav-bar .dropdown-menu li a {
+                color: #fff; }
+                body.keystone-crossroads #sub-nav-bar .dropdown-menu li a:hover, body.keystone-crossroads #sub-nav-bar .dropdown-menu li a:active {
+                  color: #000; } }
     body.keystone-crossroads .section-title {
       background-color: #9db838;
       -webkit-transition: background-color 0.5s ease-out;
@@ -162,20 +185,25 @@ body {
           font-weight: bold;
           display: inline-block; }
       body.keystone-crossroads .latest .glyphicon {
-        display: inline-block;
-        padding-top: .5rem;
-        font-size: 2rem;
-        padding-left: 0;
-        padding-right: 0; }
+        display: none; }
+        @media (min-width: 992px) {
+          body.keystone-crossroads .latest .glyphicon {
+            display: inline-block;
+            padding-top: .5rem;
+            font-size: 2rem;
+            padding-left: 0;
+            padding-right: 0; } }
       body.keystone-crossroads .latest .latest-slider {
         display: inline-block;
         margin-right: 0;
         padding-right: 0; }
         body.keystone-crossroads .latest .latest-slider ul {
-          overflow: hidden;
           white-space: nowrap;
           display: inline-block;
           width: 100%; }
+          @media (min-width: 992px) {
+            body.keystone-crossroads .latest .latest-slider ul {
+              overflow: hidden; } }
           body.keystone-crossroads .latest .latest-slider ul li {
             padding-top: 0.5rem;
             padding-right: 0.5rem;
@@ -184,8 +212,10 @@ body {
             float: none;
             display: inline-block;
             border-right: 1px solid black;
-            width: 22rem;
-            overflow: hidden; }
+            width: 100%; }
+            @media (min-width: 992px) {
+              body.keystone-crossroads .latest .latest-slider ul li {
+                overflow: hidden; } }
             body.keystone-crossroads .latest .latest-slider ul li a {
               width: 100%; }
               body.keystone-crossroads .latest .latest-slider ul li a h4 {
@@ -200,13 +230,27 @@ body {
                 display: inline-block;
                 width: 100%; }
         body.keystone-crossroads .latest .latest-slider .ec-arrow-right {
-          text-align: right; }
+          display: none;
+          height: 0; }
+          @media (min-width: 992px) {
+            body.keystone-crossroads .latest .latest-slider .ec-arrow-right {
+              display: inline-block;
+              height: auto;
+              text-align: right; } }
+        body.keystone-crossroads .latest .latest-slider .ec-arrow-left {
+          display: none;
+          height: 0; }
+          @media (min-width: 992px) {
+            body.keystone-crossroads .latest .latest-slider .ec-arrow-left {
+              display: inline-block;
+              height: auto;
+              text-align: left; } }
     body.keystone-crossroads .category-highlights {
       margin-top: 1rem;
       width: 100%; }
     body.keystone-crossroads .content-container {
       display: block;
-      margin-top: 6rem; }
+      margin-top: 11rem; }
       @media (min-width: 992px) {
         body.keystone-crossroads .content-container {
           margin-top: 140px; } }

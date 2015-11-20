@@ -206,11 +206,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/keystone-crossroads-redesign\/textpath-test.html": {
+	"\/textpath-test.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/textpath-test.html",
+		"inputAbbreviatedPath": "\/textpath-test.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
