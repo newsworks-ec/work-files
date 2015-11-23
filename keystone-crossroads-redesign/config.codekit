@@ -1,51 +1,102 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "19102",
 "files": {
-	"\/contact-page-update.html": {
+	"\/Arctext\/css\/demo.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Arctext\/css\/demo.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Arctext\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Arctext\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Arctext\/images\/noise.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65304,
+		"inputAbbreviatedPath": "\/Arctext\/images\/noise.png",
+		"outputAbbreviatedPath": "\/Arctext\/images\/noise.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Arctext\/images\/texture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25028,
+		"inputAbbreviatedPath": "\/Arctext\/images\/texture.png",
+		"outputAbbreviatedPath": "\/Arctext\/images\/texture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Arctext\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact-page-update.html",
+		"inputAbbreviatedPath": "\/Arctext\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/keystone-crossroads-redesign\/css\/ec-custom-mixins.css": {
+	"\/Arctext\/js\/jquery.arctext.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Arctext\/js\/jquery.arctext.js",
+		"outputAbbreviatedPath": "\/Arctext\/js\/min\/jquery.arctext-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/css\/ec-custom-mixins.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/css\/ec-custom-mixins.css",
+		"inputAbbreviatedPath": "\/css\/ec-custom-mixins.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/keystone-crossroads-redesign\/css\/ec-custom-variables.css": {
+	"\/css\/ec-custom-variables.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/css\/ec-custom-variables.css",
+		"inputAbbreviatedPath": "\/css\/ec-custom-variables.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/keystone-crossroads-redesign\/css\/ec-keystone-redesign.css": {
+	"\/css\/ec-keystone-redesign.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/css\/ec-keystone-redesign.css",
+		"inputAbbreviatedPath": "\/css\/ec-keystone-redesign.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/keystone-crossroads-redesign\/ec-custom-mixins.scss": {
+	"\/ec-custom-mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-custom-mixins.scss",
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/ec-custom-mixins.scss",
 		"outputAbbreviatedPath": "\/css\/ec-custom-mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -54,14 +105,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/keystone-crossroads-redesign\/ec-custom-variables.scss": {
+	"\/ec-custom-variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-custom-variables.scss",
+		"inputAbbreviatedPath": "\/ec-custom-variables.scss",
 		"outputAbbreviatedPath": "\/css\/ec-custom-variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -70,32 +121,32 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/keystone-crossroads-redesign\/ec-keystone-redesign-OLD.css": {
+	"\/ec-keystone-redesign-OLD.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-keystone-redesign-OLD.css",
+		"inputAbbreviatedPath": "\/ec-keystone-redesign-OLD.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/keystone-crossroads-redesign\/ec-keystone-redesign.html": {
+	"\/ec-keystone-redesign.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-keystone-redesign.html",
+		"inputAbbreviatedPath": "\/ec-keystone-redesign.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/keystone-crossroads-redesign\/ec-keystone-redesign.scss": {
+	"\/ec-keystone-redesign.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/keystone-crossroads-redesign\/ec-keystone-redesign.scss",
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ec-keystone-redesign.scss",
 		"outputAbbreviatedPath": "\/css\/ec-keystone-redesign.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -103,6 +154,39 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/js\/jquery-1.11.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-1.11.3.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-1.11.3.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/kc-ec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/kc-ec.js",
+		"outputAbbreviatedPath": "\/js\/min\/kc-ec-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/kc-ec-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/kc-ec-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/kc-ec-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
@@ -207,8 +291,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -217,6 +309,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {
@@ -733,7 +829,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,

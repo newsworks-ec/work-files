@@ -45,6 +45,42 @@ body {
 
 		}
 
+		.no-padd {
+					padding: 0;
+				}
+
+		.kc-social-icons-header {
+			margin-top: 0;
+			text-align: right;
+
+			a {
+				color: #fff;
+				margin-right: 1rem;
+				font-size: 1rem;
+
+				&:hover, &:active {
+					@include keystone-text-effects;
+				}
+
+				@include mobile-lg {
+					font-size: 1.5rem;
+				}
+
+				@include tablet {
+					font-size: 2rem;
+					margin-right: 2rem;
+				}
+
+
+			}
+		}
+
+		.kc-social-icons-footer {
+			@extend .kc-social-icons-header;
+			margin-top: 2rem;
+			
+		}
+
 		/*
 
 		.kc-stations-desktop {
@@ -93,7 +129,7 @@ body {
 			position: fixed;
 
 
-			@include tablet {
+			@include desktop {
 				display: block;
 				padding-bottom: 2rem;
 
@@ -117,37 +153,47 @@ body {
 
 					ul {
 						margin-left: 0;
-						padding-left: 15px;
+						padding-left: 0;
 						text-align: center;
-						font-size: 0.7rem;
+						font-size: 0.55rem;
 
 						li {
-							margin-right: 0;
-							margin-left: 3.2rem;
+							//margin-right: 0;
+							//margin-left: 2%;
+							margin-right: 1rem;
 							display: inline-block;
 							text-align: center;
+							width: 20%;
 
-							&:first-of-type {
-								margin-left: 0;
+							&:last-of-type {
+								margin-right: 0;
 							}
 
 							&:hover, &:active {
 								border-bottom: 4px solid $kc-carla-green;
 							}
 
+							@include desktop-lg {
+								width: 22%;
+							}
+
 							.dropdown-menu {
 								border: none;
-								background: none;
-								width: 100%;
+								background-color: $kc-white-transp-plus;
+								//width: 100%;
 								padding-left: 0;
+								left: 50%;
+								right: auto;
+								text-align: center;
+								transform: translate(-50%, 0);
 
 								li {
 									margin-left: 0;
 									margin-right: 0;
-									margin-top: 0.75rem;
+									margin-top: 0.5rem;
 									background-color: $kc-carla-green;
-									width: inherit;
-									padding: 0.5rem;
+									width: 100%;
+									//padding: 0.5rem;
 
 									&:hover, &:active {
 										background-color: $kc-white-transp;
@@ -155,10 +201,15 @@ body {
 
 									a {
 										color: #fff;
+										font-size: .6rem;
 										font-weight: bold;
 
 										&:hover, &:active {
 											color: #000;
+										}
+
+										@include desktop-lg {
+											font-size: .75rem;
 										}
 
 									}
@@ -171,10 +222,19 @@ body {
 					
 						}
 					}
+
+					@include desktop-lg {
+						ul {
+							font-size: .7rem;
+							padding-left: 15px;
+						}
+					}
 				}  //  sub-nav-left
 
-				.sub-nav-right {
+				  // sub-nav-right	
 
+
+					/*
 					margin-right: 0;
 					padding-right: 0;
 					padding-left: 0;
@@ -217,6 +277,10 @@ body {
 
 				}  // sub-nav-right
 
+				*/
+
+				/*
+
 				.dropdown-menu {
 					border: none;
 					background: none;
@@ -242,7 +306,18 @@ body {
 					}
 				} // dropdown-menu
 
-			}  //  @include tablet		
+				*/
+
+			}  //  @include desktop
+
+		
+
+			.sub-nav-right {
+
+					@extend .sub-nav-left;
+					
+
+				}		
 
 		}/*END SUB-NAV-BAR*/
 
@@ -263,9 +338,7 @@ body {
 
 				margin-top: 1rem;
 
-				.no-padd {
-					padding: 0;
-				}
+				
 
 				.latest-news-heading {
 					padding: 0.5rem;
@@ -389,7 +462,7 @@ body {
 
 		.content-container {
 			display: block;
-			margin-top: 11rem;
+			margin-top: 5rem;
 
 			@include desktop {
 				margin-top: 140px;
@@ -425,41 +498,58 @@ body {
 
 					//opacity: .5;
 
-					&:hover {
-						h4, p {
-							display: inherit;
-						}
-					}
+					
 
-					h4 {
-						font-size: .8rem;
-						margin-bottom: .5rem;
+					h4, p {
 						display: none;
-
 					}
 
 					h2 {
-						margin-bottom: .75rem;
-						font-size: 2rem;
-						text-align: left;
-						padding-left: 4%;
-						padding-right: 4%;
+						font-size: 1.25rem;
 					}
 
-					p {
-						display: none;
-						padding-left: 4%;
-						padding-right: 4%;
-					}
 
-					p:last-of-type {
-						margin: 0;
-					}
 
-					a {
-						color: #fff;
-					}
+					@include tablet {
 
+						h4 {
+							font-size: .8rem;
+							margin-bottom: .5rem;
+							display: none;
+
+						}
+
+						h2 {
+							margin-bottom: .75rem;
+							font-size: 2rem;
+							text-align: left;
+							padding-left: 4%;
+							padding-right: 4%;
+						}
+
+						p {
+							display: none;
+							padding-left: 4%;
+							padding-right: 4%;
+						}
+
+						p:last-of-type {
+							margin: 0;
+						}
+
+						a {
+							color: #fff;
+						}
+
+						&:hover {
+							h4, p {
+								display: inherit;
+							}
+						}
+
+					} // include tablet
+
+					
 				}   //closes text-box
 
 			}  // closes top-feature
@@ -660,19 +750,7 @@ body {
 
 			}
 
-			.kc-social-icons-footer {
-				margin-top: 2rem;
-
-				a {
-					color: #000;
-					margin-right: 2rem;
-
-					&:hover {
-							@include keystone-text-effects;
-						
-					}
-				}
-			}
+			
 
 			
 		}
