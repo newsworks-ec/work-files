@@ -337,6 +337,8 @@ body {
 		.latest {
 
 				margin-top: 1rem;
+				padding-left: 15px;
+				padding-right: 15px;
 
 				
 
@@ -374,11 +376,12 @@ body {
 					margin-right: 0;
 					padding-right: 0;
 
-					ul {
+					.latest-article-group {
 						
 						white-space: nowrap;
 						display: inline-block;
 						width: 100%;
+						height: auto;
 
 						@include desktop {
 							overflow: hidden;
@@ -386,7 +389,7 @@ body {
 						
 						//height: 5rem;
 
-						li {
+						.latest-article-item {
 							padding-top: 0.5rem;
 							padding-right: 0.5rem;
 							padding-bottom: 0;
@@ -395,10 +398,12 @@ body {
 							display:inline-block;
 							border-right: 1px solid black;
 							width: 100%;
+							height: auto;
 
-							@include desktop {
+							/*@include desktop {
 								overflow: hidden;
 							}
+							*/
 							
 
 
@@ -421,10 +426,16 @@ body {
 									width: 100%;
 								}
 
-							}
+							}  // a
 
-						}  // li
-					}  //  ul
+						}  // latest-item
+
+					}  //  latest-list-section
+
+					//.latest-ul-2 {
+					//	@extend .latest-ul;
+					//	display: none;
+					//}
 
 					.ec-arrow-right {
 						display: none;
@@ -684,7 +695,7 @@ body {
 			}
 
 			img {
-				width: 70%;
+				width: 85%;
 				border-radius: 50%;
 				margin: 0 auto;
 				-webkit-filter: grayscale(1);
@@ -756,13 +767,48 @@ body {
 		}
 
 		.footer-info {
-			margin-top: 1.5rem;
-			margin-bottom: 1.5rem;
+			margin-top: 0;
+			margin-bottom: 2.5rem;
 			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
 
 			h2 {
 				margin-bottom: 1rem;
 			}
+
+			.kc-partner-stations {
+				margin-top: 1.5rem;
+				margin-bottom: 1.5rem;
+				color: #000;
+
+				a {
+					color: #000;
+					margin-right: 2rem;
+					line-height: 2rem;
+
+					&:last-of-type {
+						margin-right: none;
+					}
+
+					&:hover, &:active {
+						@include keystone-text-effects;
+					}
+
+					@include tablet {
+						line-height: 1rem;
+					}
+				}
+
+				.partner-icons-left {
+					text-align: right;
+					padding-right: 0;
+
+					a {
+						
+					}
+				}
+			} // kc-partner-stations
 
 			.footer-logo {
 				margin-top: 1.5rem;
@@ -770,11 +816,13 @@ body {
 
 				.kc-logo-footer {
 					color: #000;
+					text-align: center;
+
 					&:hover {
 						@include keystone-text-effects;
 					}
 				}
-			}
+			} // footer-logo
 
 			.footer-text {
 				margin-top: 1.5rem;
@@ -797,28 +845,9 @@ body {
 				margin-top: 1.5rem;
 				margin-bottom: 1.5rem;
 				color: #000;
-				padding-left: 15%;
-				padding-right: 15%;
 			}
 
-			.kc-partner-stations {
-				margin-top: 1.5rem;
-				margin-bottom: 1.5rem;
-				color: #000;
-
-				a {
-					color: #000;
-					margin-right: 2rem;
-
-					&:last-of-type {
-						margin-right: none;
-					}
-
-					&:hover {
-						@include keystone-text-effects;
-					}
-				}
-			}
+			
 
 			.kc-supported-by {
 				margin-top: 1.5rem;
