@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
 
-	$example1.arctext({radius: 300})
+	$example1.arctext({radius: 300});
 
 });
