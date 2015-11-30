@@ -54,28 +54,36 @@ body {
 		.kc-social-icons-header {
 			margin-top: 0;
 			text-align: right;
+			display: none;
 
-			a {
-				color: #fff;
-				margin-right: 1rem;
-				font-size: 1rem;
+			@include tablet {
 
-				&:hover, &:active {
-					@include keystone-text-effects;
-				}
+				display: inline-block;
+				width: 100%;
 
-				@include mobile-lg {
-					font-size: 1.5rem;
-				}
+				a {
+					color: #fff;
+					margin-right: 1rem;
+					font-size: 1rem;
 
-				@include tablet {
-					font-size: 2rem;
-					margin-right: 2rem;
-				}
+					&:hover, &:active {
+						@include keystone-text-effects;
+					}
 
+					@include mobile-lg {
+						font-size: 1.5rem;
+					}
 
-			}
-		}
+					@include tablet {
+						font-size: 2rem;
+						margin-right: 1rem;
+					}
+
+				}  // a
+			}  // tablet
+	
+		}  // kc-social-icons-header
+
 
 		.kc-social-icons-footer {
 			@extend .kc-social-icons-header;
@@ -299,134 +307,112 @@ body {
 
 		.latest {
 
-				margin-top: 1rem;
-				padding-left: 15px;
-				padding-right: 15px;
+			margin-top: 1rem;
+			padding-left: 15px;
+			padding-right: 15px;
 
-				
+			.latest-news-heading {
+				padding: 0.5rem;
+				margin-bottom: 0;
+				background-color: #afbe58;
+				display: inline-block;
 
-				.latest-news-heading {
-					padding: 0.5rem;
-					margin-bottom: 0;
-					background-color: #afbe58;
+				h4 {
+					font-size: 1.5rem;
+					font-weight: bold;
 					display: inline-block;
-
-					
-					h4 {
-						font-size: 1.5rem;
-						font-weight: bold;
-						display: inline-block;
-						color: #fff;
-					}
+					color: #fff;
 				}
+			}  //  latest-news-heading
 
-				.glyphicon {
-					display: none;
+			.glyphicon {
+				display: inline-block;
+				padding-top: .5rem;
+				font-size: 2rem;
+				padding-left: 0;
+				padding-right:0;					
+			}
+
+			.latest-slider {
+				display: inline-block;
+				margin-right: 0;
+				padding-right: 0;
+
+				.latest-article-group {
+					
+					//white-space: nowrap;
+					display: inline-block;
+					height: auto;
 
 					@include desktop {
-						display: inline-block;
-						padding-top: .5rem;
-						font-size: 2rem;
-						padding-left: 0;
-						padding-right:0;
+						overflow: hidden;
+					}
+					
+					//height: 5rem;
 
+					.latest-overflow {
+						overflow: hidden;
 					}
 
-					
-				}
-
-				.latest-slider {
-					display: inline-block;
-					
-					margin-right: 0;
-					padding-right: 0;
-
-					.latest-article-group {
-						
-						white-space: nowrap;
-						display: inline-block;
-						width: 100%;
+					.latest-article-item {
+						padding-top: 0.5rem;
+						padding-right: 0.5rem;
+						padding-bottom: 0;
+						padding-left: 0.5rem;
+						display:inline-block;
+						border-right: 1px solid black;
 						height: auto;
 
-						@include desktop {
-							overflow: hidden;
-						}
-						
-						//height: 5rem;
-
-						.latest-article-item {
-							padding-top: 0.5rem;
-							padding-right: 0.5rem;
-							padding-bottom: 0;
-							padding-left: 0.5rem;
-							float: none;
-							display:inline-block;
-							border-right: 1px solid black;
+						a {
 							width: 100%;
-							height: auto;
 
-							/*@include desktop {
-								overflow: hidden;
+							h4 {
+								font-size: .7rem;
+								margin-bottom: .1em;
+								letter-spacing: .05em;
+								color: #4D4D4D;
+								
 							}
-							*/
-							
 
-
-							a {
+							h2 {
+								font-size: 1rem;
+								line-height: 1.25em;
+								color: #000;
+								display: inline-block;
 								width: 100%;
+							}
 
-								h4 {
-									font-size: .7rem;
-									margin-bottom: .1em;
-									letter-spacing: .05em;
-									color: #4D4D4D;
-									
-								}
+						}  // a
 
-								h2 {
-									font-size: 1rem;
-									line-height: 1.25em;
-									color: #000;
-									display: inline-block;
-									width: 100%;
-								}
+					}  // latest-item
 
-							}  // a
+				}  //  latest-article-group
 
-						}  // latest-item
+				.ec-arrow-right {
+					display: inline-block;
 
-					}  //  latest-list-section
-
-					//.latest-ul-2 {
-					//	@extend .latest-ul;
-					//	display: none;
-					//}
-
-					.ec-arrow-right {
-						display: none;
-						height: 0;
-
-						@include desktop {
-							display: inline-block;
-							height: auto;
-							text-align: right;
-						}
-						
+					
+					@include desktop {
+						margin-left: -2rem;
+						height: auto;
+						text-align: right;
 					}
+					
+				}  // ec-arrow-right
 
-					.ec-arrow-left {
-						display: none;
-						height: 0;
-
-						@include desktop {
-							display: inline-block;
-							height: auto;
-							text-align: left;
-						}
-						
+				.ec-arrow-left {
+					display: inline-block;
+					
+					
+					@include desktop {
+						height: auto;
+						text-align: left;
+						margin-right: -3rem;
 					}
+					
+				}  //  ec-arrow-left
 
-				}  //  latest-slider
+			}  //  latest-slider
 
 			
 		}  //  latest

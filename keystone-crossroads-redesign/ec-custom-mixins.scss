@@ -130,6 +130,14 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 
 $screen-xs-plus: ($screen-sm - 200);
 
+$screen-xs-sm: 410px;
+
+
+@mixin mobile-sm {
+    @media (min-width: #{$screen-xs-sm}) {
+        @content;
+    }
+}
 
 @mixin mobile {
     @media (min-width: #{$screen-xs}) {
